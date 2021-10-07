@@ -1,0 +1,9 @@
+.card{
+    cursor: pointer;
+}
+.card-body{
+    padding: 1rem;
+}
+.card:hover{
+    background-color: #922c88;
+}
