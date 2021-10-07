@@ -10,7 +10,7 @@ class Home extends Component{
   }
 
   getPostAPI = () => {
-    axios.get('http://api-song-lyrics.herokuapp.com/hot')
+    axios.get('https://api-song-lyrics.herokuapp.com/hot')
       .then( res => {
         this.setState({
           lyrics: res.data.data
